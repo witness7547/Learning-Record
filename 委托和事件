@@ -35,7 +35,7 @@ public delegate bool Predicate<in T>(T obj);
 This delegate is used by several methods of the Array and List<T> classes to search for elements in the collection.
 
 事件（event）：
-通过订阅事件，还可在两个对象（事件源和事件接收器，或者叫事件发布者和时间订阅者）之间创建耦合。 需要确保当不再对事件感兴趣时，事件接收器将从事件源取消订阅。
+通过订阅事件，还可在两个对象（事件源和事件接收器，或者叫事件发布者和事件订阅者）之间创建耦合。 需要确保当不再对事件感兴趣时，事件接收器将从事件源取消订阅。
 用于定义事件以及订阅或取消订阅事件的语法是对委托语法的扩展。
 //
     // Summary:
