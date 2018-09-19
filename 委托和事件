@@ -1,0 +1,6 @@
+委托（delegate）：
+1.类型安全（方法签名一致）（相对于C++函数指针）
+2.支持单播和多播（多个函数一起调用）
+3.为事件和LINQ提供基础（松散耦合）
+4.内置异步调用接口（BeginInvoke，EndInvoke）
+5.have co/contra variance when assigning new functions to a delegate（协变和逆变）
